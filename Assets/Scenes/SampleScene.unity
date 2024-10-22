@@ -904,7 +904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6598078384497053878, guid: 8856f9bdbb5320b4a87976d474047ae1, type: 3}
       propertyPath: wanderRadius
-      value: 4
+      value: 20.87
       objectReference: {fileID: 0}
     - target: {fileID: 3635524123695654740, guid: 8856f9bdbb5320b4a87976d474047ae1, type: 3}
       propertyPath: m_LocalPosition.x
