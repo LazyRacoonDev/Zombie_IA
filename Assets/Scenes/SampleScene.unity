@@ -723,7 +723,7 @@ MonoBehaviour:
   spawnLimits: {x: 12, y: 0, z: 12}
   zombiePrefab: {fileID: 325868580706778338, guid: 690fc23d4267eef42a52dfe483a281a5, type: 3}
   zombies: []
-  numZombies: 8
+  numZombies: 5
 --- !u!4 &572695048
 Transform:
   m_ObjectHideFlags: 0
@@ -948,11 +948,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6598078384497053878, guid: 8856f9bdbb5320b4a87976d474047ae1, type: 3}
       propertyPath: wanderTimer
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -6598078384497053878, guid: 8856f9bdbb5320b4a87976d474047ae1, type: 3}
       propertyPath: wanderRadius
-      value: 20.87
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3635524123695654740, guid: 8856f9bdbb5320b4a87976d474047ae1, type: 3}
       propertyPath: m_LocalPosition.x
