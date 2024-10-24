@@ -15,6 +15,7 @@ public class Zombie : MonoBehaviour
         {
             Vector3 spawnPosition = this.transform.position + new Vector3(Random.Range(-spawnLimits.x, spawnLimits.x), 0, Random.Range(-spawnLimits.z, spawnLimits.z));
             zombies[i] = Instantiate(zombiePrefab, spawnPosition, Quaternion.identity, this.transform);
+            zombies[i].transform.Rotate(0, Random.Range(0, 360), 0);
         }
     }
 
