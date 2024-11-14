@@ -115,9 +115,10 @@ public class Moves : MonoBehaviour
         hideCol.Raycast(backRay, out info, distance);
 
 
-        //Seek(info.point + chosenDir.normalized);
+        
 
         finalSpot = info.point + chosenDir.normalized;
+        Seek(finalSpot);
 
     }
 }
